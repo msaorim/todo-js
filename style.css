@@ -29,6 +29,7 @@ body {
 
 .todo__title {
     display: flex;
+    flex-direction: column;
     background-color: var(--secondary-color);
     width: 90%;
     height: 80px;
@@ -38,6 +39,10 @@ body {
     box-shadow: 1px 1px 5px var(--secondary-color);
     font-size: 3rem;
     color: var(--primary-color);
+}
+
+.assinatura {
+    font-size: medium;
 }
 
 .todo__list {
@@ -113,7 +118,7 @@ body {
 
 .todo__new-item>input::placeholder {
     text-align: center;
-    font-size: 1em;
+    font-size: .8em;
     font-style: italic;
     font-weight: normal;
 }
